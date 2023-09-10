@@ -1,0 +1,293 @@
+/*body {
+  background-color: gray;
+  text-align: center;*/
+
+body {
+    font-family: 'Roboto', serif, sans-serif;
+    background-image: url('Carbon\ Fiber\ Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: gold;
+    font-size: 140%; /* 100% is equivalent to the default size ( new) */
+}
+
+h2 {
+    font-size: 230%; /* 100% is equivalent to the default size ( new) */
+}
+
+/*
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed *
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the background image behind other content 
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html code   /* <div class="image-container">
+    <img src="carbon.jpg" class="background-image" alt="Background Image">
+        <img src="SAETeamLogo.png" class="overlay-image" alt="Overlay Image">
+    </div> */
+
+
+  
+html {
+  height: 100%;
+  width: 100%;
+}
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white; 
+    text-align: center; /*new*/
+}
+
+header {
+    background-color: black;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.image-large {
+    max-width: 100%; /* Make the image responsive */
+    height: 5;
+    margin: 10px 0;
+}
+
+.image-small {
+    max-width: 46%;
+    height: 5;
+    width: 5px 0;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; /* new */
+    justify-content: space-between; /* Distribute columns evenly */
+}
+
+.team-member {
+    width: calc(33.33% - 10px); /* Adjust width as needed */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 200px; /* Adjust image max-width as needed */
+    height: auto;
+    border-radius: 50%; /* For circular images */
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.team-member p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+
+
+.chart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.chart-table th, .chart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.chart-table th {
+   
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gold;
+    text-align: center; /*new */
+}
+
+section {
+    padding: 50px;
+}
+
+section h1 {
+  text-align: center;  /*new */
+  font-size: 2em; /* 2 times the base font size (new) */
+}
+
+section h2 {
+    text-align: center;
+    color: gold
+}
+
+section h3 {
+    text-align: center;
+    font-size: 1.7em; /* 2 times the base font size (new) */
+    color: skyblue
+}
+
+
+section p {
+    text-align: center;
+    font-size: 1.2em; /* 1.2 times the base font (size new) */
+    color:white
+}
+
+section a {
+  text-align: center;  /*new */
+}
+
+/* Set a maximum width for the text container */
+#about {
+    max-width: 1020px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center-align the container */
+    padding: 20px; /* Add padding for spacing */
+
+
+   /* background-color: black; /* Set the background color to black */
+   /* color: white; /* Set the text color to white for contrast */
+   /* padding: 20px; /* Add padding for spacing */
+  /*  margin: 20px 0; /* Add margin for spacing around the box */
+    /* Center-align text within the #about section */
+    
+}
+
+
+/* Adjust margins for the <h2> and <p> elements within the #about section */
+#about h2 {
+    margin-top: 20px; /* Add margin at the top of the <h2> element */
+    margin-bottom: 10px; /* Add margin at the bottom of the <h2> element */
+   
+}
+
+
+
+#about p {
+    margin-bottom: 20px; /* Add margin at the bottom of the <p> element */
+
+}
+
+a {
+    font-size: 150%; /* 100% is equivalent to the default size ( new) */
+    text-align: center;  /*new */
+
+
+/* Change the color of unvisited links */
+    color: #007bff; /* Change to your desired color */
+}
+
+/* Change the color of visited links */
+a:visited {
+    color: gold; /* Change to your desired color */
+}
+
+/* Change the color of links when hovered over */
+a:hover {
+    color: #ff6600; /* Change to your desired hover color */
+}
+
+/* Change the color of active links (when clicked) */
+a:active {
+    color: #ff0000; /* Change to your desired active color */
+}
+
+
+/* Set a maximum width for the text container in the Sponsorship section */
+#Sponsorship {
+    max-width: 1020px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center-align the container */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Adjust margins for the <h2> and <p> elements within the Sponsorship section */
+#Sponsorship h2 {
+    margin-top: 20px; /* Add margin at the top of the <h2> element */
+    margin-bottom: 10px; /* Add margin at the bottom of the <h2> element */
+}
+
+#Sponsorship p {
+    margin-bottom: 20px; /* Add margin at the bottom of the <p> element */
+}
+
+
+
+/*@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fade-in {
+    animation: fadeIn 1s ease-in-out; 
+}
+*/
+
+.centered-link {
+    text-align: center;
+}
+
+
+.fade-text {
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.visible {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
